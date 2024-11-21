@@ -7,13 +7,13 @@ Dynamic Updates: Player blips are updated in real-time to reflect their current 
 Customizable: You can easily add more jobs or change blip colors via the configuration file.  
   
 # How It Works  
-Admins Only: Admins are identified by their group (e.g., admin). You can adjust the Config.AdminGroup value to match your server’s group configuration.  
-Blip Colors by Job: Each player's job determines the color of their blip on the map. The colors can be modified in the Config.JobBlipColors table.  
-Automatic Updates: The blip data is refreshed every 5 seconds to keep it updated with player locations and jobs.  
-Resource Setup: Place this script in a folder (e.g., blip_system) inside your resources directory, and add ensure blip_system to your server configuration file.  
-This script is optimized for ESX and should be straightforward to implement. Let me know if you need help with further customization!  
+Admins Only: Admins are identified by their group (e.g., admin). You can adjust the Config.AdminGroup value to match your server’s group configuration.    
+Blip Colors by Job: Each player's job determines the color of their blip on the map. The colors can be modified in the Config.JobBlipColors table.    
+Automatic Updates: The blip data is refreshed every 5 seconds to keep it updated with player locations and jobs.    
+Resource Setup: Place this script in a folder (e.g., blip_system) inside your resources directory, and add ensure blip_system to your server configuration file.    
+This script is optimized for ESX and should be straightforward to implement. Let me know if you need help with further customization!    
   
-Features Explained  
+# Features Explained  
 Admin-Only Visibility:  
 
 Admins are identified by their group (default: admin).  
@@ -29,14 +29,17 @@ Customizable:
   
 Add new job roles and colors by editing Config.JobBlipColors.  
 Adjust the update interval by modifying the Citizen.Wait(5000) value in client.lua.  
-Testing the Script  
+
+# How it Works
 Log in as an admin.  
-Open your map (default: M key).  
-Verify that:  
+Open your map (default: M key). 
+
+# Verify that:  
 You see player blips  
 The blip colors match the players' jobs  
-Non-admin players cannot see the blips  
-Let me know if you need further assistance or customizations!  
+Non-admin players cannot see the blips    
+
+# Let me know if you need further assistance or customizations!  
   
 
 
