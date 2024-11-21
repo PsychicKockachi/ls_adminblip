@@ -1,3 +1,6 @@
+# About   
+An Script for ESX Server that could show admins the players location in map with a blip and Colour according to their job
+
 # ls_adminblip
 
 # Features of the Script  
